@@ -1,7 +1,7 @@
 .sidebar {
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
-  
+
   background-color: $color-primary;
 
   display: flex;
@@ -26,5 +26,5 @@
   }
 
   &::before { transform: translateY(-1.5rem); }
-  &::after { transform: translateY(1.5rem); }
+  &::after { transform: translateY(1.3rem); }
 }
